@@ -1,0 +1,13 @@
+.graph-point
+{
+    stroke: black;
+}
+
+.table-weigh{
+    min-width: 25%;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+}

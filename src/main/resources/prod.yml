@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: web-lab-4
+  jpa:
+    hibernate:
+      ddl-auto:
+  datasource:
+    url: jdbc:postgresql://
+    username:
+    password:
+accessTokenSecret:
+refreshTokenSecret:
+accessTokenExpirationMinutes: 1
+refreshTokenExpirationDays: 2
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+    org.springframework.security: DEBUG
+server:
+  port:
